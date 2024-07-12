@@ -1,0 +1,575 @@
+@media (min-width: 320px) and (max-width: 600px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    html, body{
+        width: 100%;
+        height: 100%;
+    }
+    body{
+        overflow-X: hidden;
+    }
+    .main{
+        width: 100%;
+        height: 100%;
+        background-image: none;
+        background:linear-gradient(to right bottom, rgb(93, 159, 191), rgb(88, 161, 193), rgb(108, 180, 205), rgb(128, 199, 219)) ;
+        background-attachment: none;
+    }
+    nav{
+        width: 100%;
+        height: 15%;
+        padding:10px;
+    }
+    .left-nav{
+        font-size: 16px;
+    }
+    .middle-nav {
+        display: none;
+    }
+    .right-nav{
+        display: none;
+    }
+    nav i{
+        font-size:20px;
+    }
+    .menu{
+        display: initial;
+    }
+    .searchbar input{
+        width: 80%;
+        padding:10px;
+    }
+    ::placeholder{
+        font-size: 12px;
+    }
+    .caption{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding:10px;
+    }
+    .caption section {
+        width: 100%;
+        height:auto;
+        gap:0px;
+        font-size: 16px;
+        text-align: center;
+    }
+    .caption section p{
+        font-size: 14px;
+        background: transparent;
+        color: black;
+    }
+    .types{
+        width: 100%;
+        padding:10px;
+        gap:10px;
+        margin-top:50px;
+        align-items: center;
+    }
+    .types button{
+        font-size: 12px;
+    }
+    .page2 h1{
+        font-size: 80px;
+    }
+    .page2 .sub-head{
+        font-size: 12px;
+        padding:10px;
+    }
+    .page2 .sub-head p{
+        width: 30%;
+        font-size: 10px;
+        margin:20px;
+        padding:0px;
+    }
+    .contact{
+        height:auto;
+        padding:10px;
+        margin-top:0px;
+        flex-direction: column;
+        gap:10px;
+    }
+    .image1{
+        width: 100%;
+        height:150px;
+    }
+    .image1 button{
+        font-size: 14px;
+    }
+    .image2{
+        width: 100%;
+        height:300px;
+        gap:10px;
+    }
+    .image2 section i{
+        font-size: 18px;
+    }
+    .image2 section h1{
+        font-size: 16px;
+    }
+    .image2 section p{
+        font-size: 12px;
+    }
+    .about{
+        width: 100%;
+        height:auto;
+        padding:10px;
+        flex-direction: column;
+        margin-top:10px;
+    }
+    .head2 {
+        width: 100%;
+    }
+    .details{
+        width: 100%;
+        height: 100px;
+        padding:0px;
+    }
+    .details p{
+        font-size: 12px;
+    }
+    .details button{
+        font-size: 12px;
+    }
+    .image {
+        width: 100%;
+        height:250px;
+        margin:20px 0px;
+    }
+    .forYou{
+        width: 100%;
+        height:200px;
+        padding:10px;
+        flex-direction: column;
+        margin-top:50px;
+    }
+    .head3 {
+        width: 100%;
+    }
+    .details2{
+        width: 100%;
+        height: 100px;
+        padding:0px;
+    }
+    .details2 p{
+        font-size: 12px;
+    }
+    .details2 button{
+        font-size: 12px;
+    }
+    .gallery{
+        width: 100%;
+        height: auto;
+        padding:10px;
+        margin-top:20px;
+    }
+    .galleryone{
+        width: 100%;
+        height: 30%;
+        position: initial;
+        flex-direction: column;
+    }
+    .galleryone h1{
+        position: initial;
+        font-size: 50px;
+    }
+    .galleryone p{
+        font-size: 12px;
+        width: 100%;    
+        text-align: center;
+    }
+    .galleryone i {
+        font-size: 20px;
+    }
+    .galleryone img{
+        width: 100%;
+        height: 200px;
+        margin-bottom: 10px;
+    }
+    .gallerytwo{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        text-align: center;
+    }
+    .gallerytwo section{
+        width: 100%;
+    }
+    .gallerytwo img{
+        width: 100%;
+        height: 200px;
+        margin: 20px 0px;
+    }
+    .gallerytwo section h2{
+        font-size: 25px;
+        margin: 20px 0px;
+    }
+    .gallerytwo p{
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+    .support{
+        width: 100%;
+        height:120vh;
+        padding:10px;
+        flex-direction: column;
+        margin-top:20px;
+    }
+    .innovation{
+        width: 100%;
+        margin-bottom:20px;
+        padding:12px;
+        border: 1px solid lightgray;
+    }
+    .innovation i {
+        font-size: 20px;
+    }
+    .innovation p{
+        font-size: 12px;
+    }
+    .subscribe{
+        width: 100%;
+        height: 20vh;
+        padding:10px;
+        flex-direction: column;
+        margin-bottom: 20px;;
+    }
+    .subscribe h1{
+        font-size: 70px;
+        line-height: 70px;
+    }
+    .subscribe p{
+        font-size: 12px;
+        text-align: center;
+    }
+    .footer{
+        width: 100%;
+        padding:10px;
+        justify-content: center;
+    }
+    .mail p{
+        font-size: 12px;;
+    }
+    .mail input{
+        width: 50%;
+    }
+    .end{
+        width: 100%;
+        height: auto;
+        padding:10px;
+        flex-wrap: wrap;
+        margin-top:20px;
+        align-items: center;
+    }
+    .end section{
+        width: 50%;
+        height:70px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .end h2{
+        font-size: 16px;;
+    }
+    .end p{
+        font-size: 12px;
+    }
+    .footer i{
+        font-size:20px;
+    }
+}
+
+
+
+@media (min-width: 601px) and (max-width: 1024px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    html, body{
+        width: 100%;
+        height: 100%;
+    }
+    body{
+        overflow-X: hidden;
+    }
+    .main{
+        width: 100%;
+        height: 100%;
+        background-image: none;
+        background:linear-gradient(to right bottom, rgb(93, 159, 191), rgb(88, 161, 193), rgb(108, 180, 205), rgb(128, 199, 219)) ;
+        background-attachment: none;
+    }
+    nav{
+        width: 100%;
+        height: 15%;
+        padding:10px;
+    }
+    .left-nav{
+        font-size: 16px;
+    }
+    .middle-nav {
+        display: none;
+    }
+    .right-nav{
+        display: none;
+    }
+    nav i{
+        font-size:20px;
+    }
+    .menu{
+        display: initial;
+    }
+    .searchbar input{
+        width: 80%;
+        padding:10px;
+    }
+    ::placeholder{
+        font-size: 12px;
+    }
+    .caption{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding:10px;
+    }
+    .caption section {
+        width: 100%;
+        height:auto;
+        gap:0px;
+        font-size: 16px;
+        text-align: center;
+    }
+    .caption section p{
+        font-size: 14px;
+        background: transparent;
+        color: black;
+    }
+    .types{
+        width: 100%;
+        padding:10px;
+        gap:10px;
+        margin-top:50px;
+        align-items: center;
+    }
+    .types button{
+        font-size: 12px;
+    }
+    .page2 h1{
+        font-size: 80px;
+    }
+    .page2 .sub-head{
+        font-size: 12px;
+        padding:10px;
+    }
+    .page2 .sub-head p{
+        width: 30%;
+        font-size: 10px;
+        margin:20px;
+        padding:0px;
+    }
+    .contact{
+        height:auto;
+        padding:10px;
+        margin-top:0px;
+        flex-direction: column;
+        gap:10px;
+    }
+    .image1{
+        width: 100%;
+        height:150px;
+    }
+    .image1 button{
+        font-size: 14px;
+    }
+    .image2{
+        width: 100%;
+        height:300px;
+        gap:10px;
+    }
+    .image2 section i{
+        font-size: 18px;
+    }
+    .image2 section h1{
+        font-size: 16px;
+    }
+    .image2 section p{
+        font-size: 12px;
+    }
+    .about{
+        width: 100%;
+        height:auto;
+        padding:10px;
+        flex-direction: column;
+        margin-top:10px;
+    }
+    .head2 {
+        width: 100%;
+    }
+    .details{
+        width: 100%;
+        height: 100px;
+        padding:0px;
+    }
+    .details p{
+        font-size: 12px;
+    }
+    .details button{
+        font-size: 12px;
+    }
+    .image {
+        width: 100%;
+        height:250px;
+        margin:20px 0px;
+    }
+    .forYou{
+        width: 100%;
+        height:auto;
+        padding:10px;
+        flex-direction: column;
+        margin-top:50px;
+    }
+    .head3 {
+        width: 100%;
+    }
+    .details2{
+        width: 100%;
+        height: 100px;
+        padding:0px;
+    }
+    .details2 p{
+        font-size: 12px;
+    }
+    .details2 button{
+        font-size: 12px;
+    }
+    .gallery{
+        width: 100%;
+        height: auto;
+        padding:10px;
+        margin-top:20px;
+    }
+    .galleryone{
+        width: 100%;
+        height: 30%;
+        position: initial;
+        flex-direction: column;
+    }
+    .galleryone h1{
+        position: initial;
+        font-size: 50px;
+    }
+    .galleryone p{
+        font-size: 12px;
+        width: 100%;    
+        text-align: center;
+    }
+    .galleryone i {
+        font-size: 20px;
+    }
+    .galleryone img{
+        width: 100%;
+        height: 200px;
+        margin-bottom: 10px;
+    }
+    .gallerytwo{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        text-align: center;
+    }
+    .gallerytwo section{
+        width: 100%;
+    }
+    .gallerytwo img{
+        width: 100%;
+        height: 200px;
+        margin: 20px 0px;
+    }
+    .gallerytwo section h2{
+        font-size: 25px;
+        margin: 20px 0px;
+    }
+    .gallerytwo p{
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+    .support{
+        width: 100%;
+        height:120vh;
+        padding:10px;
+        flex-direction: column;
+        margin-top:20px;
+    }
+    .innovation{
+        width: 100%;
+        margin-bottom:20px;
+        padding:12px;
+        border: 1px solid lightgray;
+    }
+    .innovation i {
+        font-size: 20px;
+    }
+    .innovation p{
+        font-size: 12px;
+    }
+    .subscribe{
+        width: 100%;
+        height: 20vh;
+        padding:10px;
+        flex-direction: column;
+        margin-bottom: 20px;;
+    }
+    .subscribe h1{
+        font-size: 70px;
+        line-height: 70px;
+    }
+    .subscribe p{
+        font-size: 12px;
+        text-align: center;
+    }
+    .footer{
+        width: 100%;
+        padding:10px;
+        justify-content: center;
+    }
+    .mail p{
+        font-size: 12px;;
+    }
+    .mail input{
+        width: 50%;
+    }
+    .end{
+        width: 100%;
+        height: auto;
+        padding:10px;
+        flex-wrap: wrap;
+        margin-top:20px;
+        align-items: center;
+    }
+    .end section{
+        width: 50%;
+        height:70px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .end h2{
+        font-size: 16px;;
+    }
+    .end p{
+        font-size: 12px;
+    }
+    .footer i{
+        font-size:20px;
+    }
+}
